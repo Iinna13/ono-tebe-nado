@@ -134,7 +134,7 @@ text-underline-offset: 5px;
     
     padding-top: 20px;
     padding-right: 50px;
-    padding-bottom: 237px;
+    padding-bottom: 135px;
 }
 .o_nado_letter {
  
@@ -148,7 +148,37 @@ text-underline-offset: 5px;
 .n_nado_letter {
     letter-spacing: 60px;
 }
-.auction_button {
- 
 
+.auction_button {
+    display: grid;
+}
+.auction {
+    grid-column: 1;
+    padding-left: 82px;
+    padding-top: 12px;
+    word-spacing: 17px;
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    text-transform: uppercase;    
+}
+.button {
+    grid-column: 2;
+    color: #FFF;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-left: 32px;
+    width: 256px;
+    height: 51px;
+   background-color: transparent;
+   border-color: #FFF;
+   border: 1px solid;
 }
