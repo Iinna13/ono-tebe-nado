@@ -14,11 +14,11 @@
       <nav class="header_menu">
         <ul class="navigation">
           <li class="main"> главная </li>
-          <li class="view_lots">посмотреть лоты</li>
-          <li class="lots_about">об аукционе </li>
+          <li class="view_lots"><a href="#lots">посмотреть лоты</a></li>
+          <li class="lots_about"><a href="#about">об аукционе</a> </li>
         </ul>
       </nav>
-      <img class="logo" src="./images/logo-black.svg">
+      <a href="#cover"><img class="logo" src="./images/logo-black.svg"></a>
       <ul class="header_address">
         <li><address class="phone_email"><a href="tel:+99995555555">+9 999 555 5555</a></address></li>
         <li><address class="phone_email"><a href="mailto:info@sobaka.ge"> info@sobaka.ge</a> </address></li>
@@ -28,7 +28,8 @@
     </header>
 
     <main>
-      <section class="cover"> 
+      <section class="cover" id="cover"> 
+        <img class="ono_image" src="./images/cover.jpg">
         <div class="ono"><span class="o_letter">О</span><span class="n_letter">н</span>о</div>
         <div class="tebe"><span class="t_letter">т</span><span class="e_letters">е</span><span class="b_letter">б</span>е</div> 
         <div class="nado"><span class="n_nado_letter">н</span><span class="a_letter">а</span><span class="d_letter">д</span><span class="o_nado_letter">о</span></div>
@@ -37,7 +38,7 @@
           <button class="button">Сделать ставку</button>
           </div>
         </section>
-      <section class="lots">
+      <section class="lots" id="lots">
         <h3 class="heading">лоты</h3>
         <div class="articles">
         <article class="article_1">
@@ -64,7 +65,7 @@
         </div>
       <p class="deploy">Посмотреть больше</p>
     </section>
-      <section class="about">
+      <section class="about" id="about">
         <div class="image_about">
         <div class="image_white_logo"> 
         <img src="./images/logo-white.svg">
