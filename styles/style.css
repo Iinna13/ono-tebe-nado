@@ -1,4 +1,7 @@
 /* место для вашего кода */
+* {
+  font-family: Raleway;
+}
 .header {
   display: grid;
   grid-template-columns: 1fr auto 1fr;
@@ -17,7 +20,7 @@
 }
 
 .navigation {
-  font-family: raleway;
+  font-family: Raleway;
   font-size: 18px;
   padding-left: 26.52px;
   padding-top: 44px;
@@ -95,7 +98,6 @@
   padding-left: 50px;
 }
 
-
 .n_letter {
   letter-spacing: 60px;
 }
@@ -103,6 +105,7 @@
 .o_letter {
   letter-spacing: 30px;
 }
+
 .tebe {
   color: #fff;
   font-family: Raleway;
@@ -118,12 +121,15 @@
 .t_letter {
   letter-spacing: 30px;
 }
+
 .e_letters {
   letter-spacing: 30px;
 }
+
 .b_letter {
   letter-spacing: 60px;
 }
+
 .nado {
   color: #fff;
   text-align: right;
@@ -133,19 +139,19 @@
   text-transform: uppercase;
   font-weight: 700;
   line-height: 100px;
-
   padding-top: 20px;
   padding-right: 50px;
   padding-bottom: 135px;
 }
-.o_nado_letter {
-}
+
 .d_letter {
   letter-spacing: 30px;
 }
+
 .a_letter {
   letter-spacing: 30px;
 }
+
 .n_nado_letter {
   letter-spacing: 60px;
 }
@@ -336,7 +342,7 @@
 .footer_address {
   grid-column: 1;
   list-style: none;
-  font-family: raleway;
+  font-family: Raleway;
   font-size: 18px;
   line-height: 135%;
 }
