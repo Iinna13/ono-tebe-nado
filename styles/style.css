@@ -54,7 +54,7 @@
 .header_address {
   grid-column: 3;
   list-style: none;
-  font-family: raleway;
+  font-family: Raleway;
   font-size: 18px;
   line-height: 135%;
   margin-left: 184.52px;
@@ -233,6 +233,7 @@
 
 .article_heading {
   color: #FFF; 
+  
   font-family: Raleway;
   font-size: 22px;
   font-style: normal;
