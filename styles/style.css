@@ -6,9 +6,37 @@
   height: 105px;
   margin: 92px 24px 96px 24px;
 }
+
 .header_menu {
   grid-column: 1;
   justify-self: start;
+}
+
+.navigation > li {
+  float: left;
+}
+
+.navigation {
+  font-family: raleway;
+  font-size: 18px;
+  padding-left: 26.52px;
+  padding-top: 44px;
+}
+
+.main {
+  list-style: none;
+}
+
+.view_lots {
+  list-style: circle;
+  margin-left: 35px;
+  text-decoration: underline;
+}
+
+.lots_about {
+  list-style: circle;
+  margin-left: 27px;
+  text-decoration: underline;
 }
 
 .logo {
@@ -29,30 +57,6 @@
   margin-left: 184.52px;
   margin-top: 5px;
 }
-.navigation > li {
-  float: left;
-}
-.navigation {
-  font-family: raleway;
-  font-size: 18px;
-  padding-left: 26.52px;
-  padding-top: 44px;
-}
-.main {
-  list-style: none;
-}
-
-.view_lots {
-  list-style: circle;
-  margin-left: 35px;
-  text-decoration: underline;
-}
-
-.lots_about {
-  list-style: circle;
-  margin-left: 27px;
-  text-decoration: underline;
-}
 
 .phone_email {
   text-decoration: underline;
@@ -61,17 +65,6 @@
   line-height: 135%;
   text-underline-offset: 5px;
 }
-.image_white_logo {
-  width: 240px;
-  height: 240px;
-  background-image: url(../images/Ellipse.svg);
-  padding-left: 46.5px;
-  padding-top: 62px;
-  padding-right: 45.5px;
-  padding-bottom: 64px;
-  margin-left: 68px;
-  margin-top: 35px;
-}
 
 .cover {
   width: 1100px;
@@ -79,6 +72,7 @@
   position: relative;
   background: rgba(0, 0, 0, 0.6);
 }
+
 .ono_image {
   position: absolute;
   top: 0;
@@ -88,6 +82,7 @@
   z-index: -1;
   object-fit: cover;
 }
+
 .ono {
   color: #fff;
   font-family: Raleway;
@@ -99,6 +94,8 @@
   padding-top: 165px;
   padding-left: 50px;
 }
+
+
 .n_letter {
   letter-spacing: 60px;
 }
@@ -156,6 +153,7 @@
 .auction_button {
   display: grid;
 }
+
 .auction {
   grid-column: 1;
   padding-left: 82px;
@@ -169,9 +167,11 @@
   line-height: 28px;
   text-transform: uppercase;
 }
+
 .v_auction {
   letter-spacing: 4px;
 }
+
 .button {
   grid-column: 2;
   color: #fff;
@@ -213,7 +213,8 @@
   margin-left: 25px;
   margin-right: 25px;
 }
-.article_1 {
+
+.article {
   color: #fff;
   position: relative;
   flex-grow: 1;
@@ -222,39 +223,10 @@
   display: flex;
   flex-direction: column;
   background: rgba(0, 0, 0, 0.6);
-}
-.article_2 {
-  color: #fff;
-  position: relative;
-  flex-grow: 1;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  background: rgba(0, 0, 0, 0.6);
-}
-.article_3 {
-  color: #fff;
-  position: relative;
-  flex-grow: 1;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  background: rgba(0, 0, 0, 0.6);
-}
-.article_img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  object-fit: cover;
 }
 
 .article_heading {
-  /*color: #FFF; */
+  color: #FFF; 
   font-family: Raleway;
   font-size: 22px;
   font-style: normal;
@@ -281,9 +253,18 @@
   margin-right: 40px;
 }
 
+.article_img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  object-fit: cover;
+}
+
 .deploy {
   color: #000;
-
   font-family: Raleway;
   font-size: 20px;
   font-style: normal;
@@ -300,9 +281,25 @@
   padding-top: 148px;
 }
 
+.image_about {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.image_white_logo {
+  width: 240px;
+  height: 240px;
+  background-image: url(../images/Ellipse.svg);
+  padding-left: 46.5px;
+  padding-top: 62px;
+  padding-right: 45.5px;
+  padding-bottom: 64px;
+  margin-left: 68px;
+  margin-top: 35px;
+}
+
 .about_auction {
   color: #000;
-
   font-family: Raleway;
   font-size: 40px;
   font-style: normal;
@@ -312,10 +309,6 @@
   grid-column: 2;
   padding-top: 133px;
   padding-left: 18px;
-}
-.image_about {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
 }
 
 .paragraphs_about {
@@ -332,12 +325,6 @@
   padding-right: 24px;
   row-gap: 26px;
 }
-.footer_address {
-  list-style: none;
-  font-family: raleway;
-  font-size: 18px;
-  line-height: 135%;
-}
 
 .footer {
   display: grid;
@@ -345,41 +332,13 @@
   padding-left: 50px;
   grid-template-columns: 1fr 1fr 1fr;
 }
+
 .footer_address {
   grid-column: 1;
-}
-.footer_navigation {
-  grid-column: 2;
-
-  font-family: Raleway;
+  list-style: none;
+  font-family: raleway;
   font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  list-style: none;
-}
-.navigation_bottom {
-  list-style: none;
-}
-.footer_images {
-  width: 48px;
-  height: 48px;
-  display: flex;
-  flex-direction: row;
-  column-gap: 48px;
-  grid-column: 3;
-  margin-left: 60px;
-}
-.footer_main {
-  padding-left: 115px;
-}
-.footer_lots_about_lots {
-  padding-left: 75px;
-  text-decoration: underline;
-}
-.footer_lots_about_about {
-  padding-left: 95px;
-  text-decoration: underline;
+  line-height: 135%;
 }
 
 .footer_phone {
@@ -389,3 +348,44 @@
   line-height: 135%;
   text-underline-offset: 5px;
 }
+
+.footer_navigation {
+  grid-column: 2;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  list-style: none;
+}
+
+.navigation_bottom {
+  list-style: none;
+}
+
+.footer_main {
+  padding-left: 115px;
+}
+
+.footer_lots_about_lots {
+  padding-left: 75px;
+  text-decoration: underline;
+}
+
+.footer_lots_about_about {
+  padding-left: 95px;
+  text-decoration: underline;
+}
+
+.footer_images {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  column-gap: 48px;
+  grid-column: 3;
+  margin-left: 60px;
+}
+
+
+
