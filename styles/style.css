@@ -271,18 +271,12 @@
 
 .deploy {
   display: inline-block;
-  text-decoration: none;
   color: #000;
   font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
   text-transform: lowercase;
   padding-top: 30px;
   padding-left: 62px;
-  text-decoration: underline;
   text-underline-offset: 5px;
-  padding-top: 30px;
 }
 
 .about {
